@@ -7,6 +7,7 @@ Solution: You will have to change the owner to monogdb user.
 chown -R mongodb:mongodb /var/lib/mongodb     
 chown mongodb:mongodb /tmp/mongodb-27017.sock     
 ```
+from: https://www.digitalocean.com/community/questions/mongo-cant-start-service   
 
 ## Use mongodb shell   
 sudo systemctl start mongod                         
